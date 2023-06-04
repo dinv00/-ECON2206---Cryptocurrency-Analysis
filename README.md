@@ -242,6 +242,7 @@ The results were as follows:
 |October  |-102.045796|
 |November |39.619183  |
 |December |71.464429  |
+
 With this information we are ready to tackle ***QUESTION 2*: On which months are the currencies more volatile?** as we can see *May* is the month with the highest absolute volatility as it had an average volatility of "112.6..." which was a positive change, on the other hand *October* was the month with the second highest absolute volatility however this value was negative, which means that in average on the days on *October* the currencies lost their value. Another notable month would be *April* on which we have the lowest absolute volatility.
 ###### 3.1.2 Linear Regression
 This part of the code performs *linear regression analysis* on a dataset, specifically focusing on the relationship between the "**Date**" and "**PercentageChange**" variables for each "**Month**". It groups the data by "**Month**"...
@@ -290,6 +291,7 @@ The results are as follow:
 |*DOGE*  |-0.000324 |
 |*ETC*   |-0.040643 |
 |*ETH*   |-3.940411 |
+
 With this results we are able to answer ***QUESTION 1*: Which currencies are the most volatile?**.
 
 Notable results are that:
